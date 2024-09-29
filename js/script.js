@@ -21,7 +21,7 @@ const displayUsers = function (userResults) {
         userDiv.innerHTML =`
         <h3>${name}</h3>
         <p>${country}</p>
-        <img scr=${imageUrl} alt="User avatar" />
+        <img src=${imageUrl} alt="User avatar" />
         `;
         randomFolks.append(userDiv);
     }
